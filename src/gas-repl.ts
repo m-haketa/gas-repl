@@ -19,7 +19,7 @@ export class GasRepl {
           this.event.emit('input', cmd.trim());
         }
       });
-      replServer.setupHistory('.gas-repl.history', (err, repl) => {});
+//      replServer.setupHistory('.gas-repl.history', (err, repl) => {});
       replServer.on('exit', () => {
         this.event.emit('exit', 'REPL exit.')
       });

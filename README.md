@@ -26,3 +26,8 @@ Now you can use `gas-repl` to interact with remote objects.
 ## Troubleshooting
 
 If you have `Exception: ScriptError Authorization is required to perform that action. []`, try `clasp login`.
+
+
+## Change Log
+
+Revised to run on Windows7 and Node V10  
